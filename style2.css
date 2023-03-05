@@ -1,0 +1,240 @@
+/* Global styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    background-color: lightblue;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+
+nav li {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+nav a {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hero section styles */
+
+#myself {
+    background-image: url(kushagra2.jpg);
+    background-position: center;
+    background-size: contain;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#myself h1 {
+    font-size: 48px;
+    margin: 0 0 20px 0;
+}
+
+#myself p {
+    font-size: 24px;
+    margin: 0 0 40px 0;
+}
+
+.btn {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #333;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/* About section styles */
+
+#about {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#about p {
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* Projects section styles */
+
+#projects {
+    background-color: #f5f5f5;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.project {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin: 0 0 20px 0;
+}
+
+.project p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Contact section styles */
+
+#contact {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contact-form textarea {
+    min-height: 200px;
+}
+
+.contact-form button {
+    background-color: #333;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #f5f5f5;
+    text-decoration: none;
+}
